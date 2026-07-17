@@ -11,9 +11,9 @@ La plataforma consolida la información transaccional proveniente del ERP Siesa 
 Objetivos
 Centralizar la información comercial, operativa y logística en una única "fuente de la verdad".
 
-*Monitorear el cumplimiento de presupuestos nacionales y regionales con unificación inteligente de metas.
-*Optimizar las políticas de compras y abastecimiento mediante métricas de cobertura y control de stock mínimo y máximo.
-*Garantizar la seguridad y confidencialidad de la información mediante exclusión de datos financieros sensibles a la fuerza de ventas.
+* Monitorear el cumplimiento de presupuestos nacionales y regionales con unificación inteligente de metas.
+* Optimizar las políticas de compras y abastecimiento mediante métricas de cobertura y control de stock mínimo y máximo.
+* Garantizar la seguridad y confidencialidad de la información mediante exclusión de datos financieros sensibles a la fuerza de ventas.
 
 Alcance
 La solución abarca tres áreas críticas del negocio:
