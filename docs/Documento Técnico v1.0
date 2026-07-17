@@ -1,22 +1,22 @@
-## Documento de Arquitectura y Especificación Técnica v1.0
+##Documento de Arquitectura y Especificación Técnica v1.0
 
 
 Proyecto: Plataforma BI Comercial, Compras y Abastecimiento
 Origen de Datos: ERP Siesa (SQL Server) & Excel Centralizado
 Entorno de Implementación: Microsoft Fabric / Power BI Service
 
-## Introducción
+##Introducción
 Este repositorio contiene la arquitectura, el código y la especificación técnica de la solución analítica de inteligencia de negocios de Kooll Importaciones SAS, empresa dedicada a la importación y comercialización de equipos de piscinas y tratamiento de agua en Colombia.
 La plataforma consolida la información transaccional proveniente del ERP Siesa junto con las metas presupuestales e inventarios, proporcionando visibilidad en tiempo real para la toma de decisiones críticas en las áreas comercial, compras y abastecimiento.
 
-## Objetivos
+##Objetivos
 Centralizar la información comercial, operativa y logística en una única "fuente de la verdad".
 
 •	Monitorear el cumplimiento de presupuestos nacionales y regionales con unificación inteligente de metas.
 •	Optimizar las políticas de compras y abastecimiento mediante métricas de cobertura y control de stock mínimo y máximo.
 •	Garantizar la seguridad y confidencialidad de la información mediante exclusión de datos financieros sensibles a la fuerza de ventas.
 
-## Alcance
+##Alcance
 La solución abarca tres áreas críticas del negocio:
 
 •	Comercial: Seguimiento de ventas netas, cumplimiento de presupuestos generales y de contado, margen de rentabilidad y evolución temporal por vendedor.
@@ -39,10 +39,10 @@ Archivos de Control Interno (Excel en OneDrive):
 •	Fact_Presupuestos: Cuotas mensuales por asesor y tipo de venta (Contado/Crédito).
 •	Politica_Inventarios: Parámetros de stocks mínimos, máximos y lead times de importación.
 
-## Modelo de Datos
+##Modelo de Datos
 El diseño implementa un Esquema en Estrella clásico para maximizar el rendimiento de las medidas DAX y simplificar la experiencia de usuario.
 
-## Dashboards Desarrollados
+##Dashboards Desarrollados
 
 Comercial
 •	Pestañas Incluidas: 1. Comercial (Rentabilidad), 2. Ventas Generales, 3. Evolución Mensual.
