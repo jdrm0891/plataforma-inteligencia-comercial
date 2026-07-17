@@ -1,9 +1,9 @@
-##Documento de Arquitectura y Especificación Técnica v1.0
+#Documento de Arquitectura y Especificación Técnica v1.0
 
 
-Proyecto: Plataforma BI Comercial, Compras y Abastecimiento
-Origen de Datos: ERP Siesa (SQL Server) & Excel Centralizado
-Entorno de Implementación: Microsoft Fabric / Power BI Service
+**Proyecto**: Plataforma BI Comercial, Compras y Abastecimiento
+**Origen de Datos**: ERP Siesa (SQL Server) & Excel Centralizado
+**Entorno de Implementación**: Microsoft Fabric / Power BI Service
 
 ##Introducción
 Este repositorio contiene la arquitectura, el código y la especificación técnica de la solución analítica de inteligencia de negocios de Kooll Importaciones SAS, empresa dedicada a la importación y comercialización de equipos de piscinas y tratamiento de agua en Colombia.
