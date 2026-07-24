@@ -1,0 +1,15 @@
+__Fuentes de Datos__
+
+La solución se alimenta de dos orígenes principales:
+
+ERP Siesa (SQL Server Local):
+Fact_Ventas: Historial transaccional de facturación (vendedor, cliente, producto, zona, cantidades, montos netos).
+Dim_Producto: Maestro de referencias de piscinas, filtros, bombas y tratamientos químicos.
+
+Archivos de Control Interno (Excel en OneDrive):
+
+Fact_Presupuestos: Cuotas mensuales por asesor y tipo de venta (Contado/Crédito).
+Dim_Clientes: BD de todos los clientes de la compañia
+Dim_Vendedor: Maestro de todos los vendedores de la compañia, la zona a la que corresponde y el presupuesto de contado asignado por la direccion comercial. 
+
+Regla Crítica del Negocio: Relación de Vendedores y ZonasAviso de Arquitectura: Se rechazó explícitamente el uso de una tabla puente rígida que relacione Asesor $\rightarrow$ Zona Geográfica. Esto previene el "Efecto de Ventas Cruzadas" (por ejemplo, cuando un vendedor de la zona Centro factura a un cliente con sede en Antioquia). La relación es exclusivamente de la dimensión única Dim_Vendedor hacia las tablas de hechos por el nombre del asesor, permitiendo que las ventas se registren en la zona real donde ocurre la transacción sin perder la atribución del vendedor.
