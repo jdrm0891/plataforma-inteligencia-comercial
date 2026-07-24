@@ -54,7 +54,7 @@ Usuarios Finales
 * Seguimiento de ventas.
 * Cumplimiento de presupuesto.
 * Análisis de clientes.
-* * Análisis de productos
+* Análisis de productos
 * Desempeño comercial.
 * KPIs estratégicos.
 
